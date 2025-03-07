@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'elearning.urls'
+ROOT_URLCONF = 'bakingacademy.urls'
 
 TEMPLATES = [
     {
