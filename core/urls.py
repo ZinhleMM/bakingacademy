@@ -1,6 +1,8 @@
 from django.urls import path
-from . import views
+from .views.user_views import register_user, login_user, logout_user
 
 urlpatterns = [
-    path('', views.home, name='home'),  # Map the home view
+    path('register/', register_user, name='register'),
+    path('login/', login_user, name='login'),
+    path('logout/', logout_user, name='logout'),
 ]
