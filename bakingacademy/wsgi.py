@@ -1,5 +1,5 @@
 """
-WSGI config for elearning project.
+WSGI config for bakingacademy project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
